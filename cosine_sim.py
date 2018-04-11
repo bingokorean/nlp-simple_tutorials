@@ -18,6 +18,6 @@ if __name__=="__main__":
     for w in data[1].split():   #두번째 문장 벡터 (binary)
         v2[vocab_dic[w]] = 1
 
-    print cos(v1,v2)
+    print u'유사도:', cos(v1,v2)
 
     

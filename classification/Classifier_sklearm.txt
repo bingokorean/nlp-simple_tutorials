@@ -1,0 +1,4 @@
+1. 분류기 객체 생성 (파라미터 설정)
+2. fit 함수로 Train 
+3. test data 입력 --> 시스템 예측값 y' 얻음 
+4. y'와 y 비교해서 결과 얻음 (sklearn에서 제공하는 scoring metrix 이용, 보통 [p,r,f1] 사용) 

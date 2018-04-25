@@ -1,5 +1,5 @@
 # -*- encoding:utf-8 -*-
-
+# iris 데이터 읽기 
 def get_data():
     import pandas as pd
     from sklearn.preprocessing import LabelEncoder

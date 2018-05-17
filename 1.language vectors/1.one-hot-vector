@@ -1,0 +1,22 @@
+작성: 2018.05.16
+
+<One hot vector; Binary vector>
+
+문장 집합 {'I ate dinner', 'I am going to school', 'John had dinner'}
+
+단어 집합 {'I', 'ate', 'dinner', 'I', 'am', 'going', 'to', 'school', 'John', 'had', 'dinner'}
+
+vocabulary {'I', 'ate', 'dinner', 'am', 'going', 'to', 'school', 'John', 'had'} ==> 중복 없음 
+
+vocabulary 기준 
+
+1. 단어 벡터 
+			'I', 'ate', 'dinner', 'am', 'going', 'to', 'school', 'John', 'had'
+'I'			 1		0		0		0		0		0		0		0		0
+'dinner'	0		0		1		0		0		0		0		0		0
+
+2. 문장 벡터 
+			'I', 'ate', 'dinner', 'am', 'going', 'to', 'school', 'John', 'had'
+문장 1		 1		1		1		0		0		0		0		0		0
+문장 2		1		0		0		1		1		1		1		0		0
+문장 3		0		0		1		0		0		0		0		1		1

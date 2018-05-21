@@ -1,0 +1,8 @@
+0-1. nltk 패키지 설치 (터미널에서==> C:/Python27 --> Script 폴더-->  pip install nltk 입력)
+0-2. idle 에서 ==> import nltk --> nltk.download()--> 모든 패키지 다운로드 
+1. features_ex.py 실행 
+2. nltk 패키지 word_tokenize() 와 string.split()의 다른점 
+3. stemmer를 쓰면 좋은 점 
+4. pos tag feature 사용 하여 할수 있는 것.
+
+

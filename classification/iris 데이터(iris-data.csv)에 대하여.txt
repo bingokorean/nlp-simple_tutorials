@@ -1,0 +1,5 @@
+iris 데이터는 붓꽃의 길이, 너비를 이용하여 어떤 붓꽃에 속하는지를 분류하는 매우 클래식한 데이터이다. 
+
+여기서 자질은 꽃받침(sepal)의 길이와 너비, 꽃잎(petal)의 길이와 너비 등이 있고 결과 값은 세가지 붓꽃(setosa, versicolor, virginica)을 대표하는 레이블이 된다. 
+
+즉, 입력은 네가지 자질(꽃받침(sepal)의 길이와 너비, 꽃잎(petal)의 길이와 너비)이고, output은 세가지 붓꽃(setosa, versicolor, virginica) 중 한개 이다.
